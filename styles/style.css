@@ -29,9 +29,7 @@
 
 
 
-
-/* 1 */
-#content {
+main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -40,10 +38,25 @@
     padding-right: 130px;
 }
 
+/* 1 */
+/* nav section */
 #nav {
     display: flex;
     border: 2px dashed black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
 
+}
+
+#nav-items a {
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 44px;
 }
 
 #logo {
@@ -57,15 +70,11 @@
     padding: 0 10px;
 }
 
-#logo,
-#nav-items {
-    width: 50%;
-    border: 2px dashed blue;
-}
 
 
 
 /* 2 */
+/* explore section */
 #explore-section {
     border: 2px dashed black;
     position: relative;
