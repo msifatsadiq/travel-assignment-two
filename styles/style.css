@@ -8,21 +8,20 @@
 
 .primary-text-header {
     color: #131318;
-    font-size: 40px;
+    font-size: 2.6rem ;
     font-weight: 800;
 }
 
 .primary-text-para {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 1rem ;
     font-weight: 400;
 }
 
 .primary-btn {
     border-radius: 8px;
-    border: 1px solid aqua;
-    width: 174px;
-    height: 52px;
+    width: 10.8rem ;
+    height: 3.25rem;
     background: #FF5400;
 
 }
@@ -33,16 +32,16 @@ main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px dashed red;
-    padding-left: 130px;
-    padding-right: 130px;
+    /* border: 2px dashed red; */
 }
 
 /* 1 */
 /* nav section */
+
+
 #nav {
     display: flex;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -50,16 +49,8 @@ main {
 
 }
 
-#nav-items a {
-    color: #424247;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    margin-left: 44px;
-}
-
 #logo {
+    width: 50%;
     display: flex;
 }
 
@@ -70,123 +61,190 @@ main {
     padding: 0 10px;
 }
 
+#nav-items {
+    width: 50%;
+    /* border: 2px dashed red; */
+    text-align: center;
+}
+
+#nav-items a {
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 7px;
+}
+
+
+
 
 
 
 /* 2 */
 /* explore section */
 #explore-section {
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     position: relative;
     text-align: center;
+    margin-top: 3rem;
+
 }
+
 
 #explore-section>img {
     width: 100%;
-    height: auto;
+    border-radius: 1rem;
+}
+
+.explore-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
 }
 
 #hero-section-content {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 13%;
+    left: 22%;
+}
 
-    /* position: absolute;
-    top: 8px;
-    right: 16px; */
+.frame {
+    position: absolute;
+    bottom: 7%;
+    right: 51%;
+}
+
+.when-svg {
+    position: absolute;
+    top: 85%;
+    right: 26%;
+}
+
+#find-section {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 2rem;
+}
+
+#find-section input {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+    border: 0;
+    margin: 10px;
+
+}
+
+#find-section .primary-btn {
+    margin-top: 10px;
+    padding: 16px;
+    border: 0;
 }
 
 /* 3 */
 #popular-section {
     display: flex;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     margin-top: 100px;
 }
 
 .popular-text-section {
     width: 50%;
+    padding: 30px;
 }
 
 .popular-image-section {
-    margin-left: 15rem;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
 }
 
 /* 4 */
+
 #destination-section {
-    border: 2px dashed black;
+    margin-top: 100px;
 }
 
-.destination-text-section {
+#destination-text-section {
+    width: 100%;
     text-align: center;
 }
 
-.destination-img-section {
-    /* display: grid; */
-    padding: 40px;
+#destination-img-section {
+    width: 100%;
 }
 
-.two-img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
+#destination-img-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.location-maldives {}
-
-.three-img {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+#destination-img-section>div {
+    padding: 5px;
+    position: relative;
 }
 
-.last-two-img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+p.places {
+    position: absolute;
+    color: white;
+    top: 38%;
+    left: 40%;
+    /*  */
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 /* 5 */
-.choose-us {
-    padding: 20px;
-}
-
-.choose-us-header-section {
-    text-align: center;
-
-}
-
-.choose-us-main-content-one {
-    display: flex;
+#choose-us-text {
     width: 100%;
-    height: 300px;
-    border: 1px solid green;
-    gap: 3rem;
-    margin-top: 30px;
-
 }
 
-.choose-us-hotels {
+.primary-text-header {
+    text-align: center;
+}
+
+#choose-us-text {
+    text-align: center;
+}
+
+#choose-us-main-content-one {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    gap: 40px;
+}
+
+#choose-us-main-content-two {
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#choose_us_hotels {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+    padding: 25px;
 }
 
-.choose-us-world {
-    width: 50%;
+#choose_us_world {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+    padding: 25px;
 }
 
-.choose-us-best {
-    width: 50%;
-    height: 300px;
+#best_price_guarantee{
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    margin-top: 20px;
-    margin: 20px auto;
+    padding: 25px;
 }
-
 /* 6 */
 
 
@@ -196,19 +254,18 @@ main {
 
 
 /* 8 */
-.newsletter-section {
-    border: 2px solid salmon;
+#newsletter-section {
+    width: 100%;
+    margin-top: 100px ;
     display: flex;
-    justify-content: space-between;
-
+    align-items: center;
 }
 
 .newsletter-text-container {
     background: #FFF;
     border-radius: 16px;
-    border: 1px solid #FF5400;
-    padding: 20px;
-    width: 40%;
+    padding: 30px;
+    width: 50%;
 }
 
 .newsletter-text-container input {
@@ -222,34 +279,47 @@ main {
 
 .newsletter-text-container .primary-btn {
     width: 100%;
+    border: 0;
+}
+.newsletter-image-container{
+    width: 50%;    
+    padding: 30px;
+}
+.newsletter-image-container img{
+    width: 100%;
 }
 
 
 
 #footer {
     width: 100%;
-    border: 2px dashed red;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
-    height: 40vh;
-
+    background: rgba(19, 19, 24, 0.05);
 }
 
 .logo {
     display: flex;
-    border: 1px solid fuchsia;
     justify-content: center;
 }
+
+#footer-line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(19, 19, 24, 0.10);
+    width: 800px;
+}
+
 
 #footer .logo {
     margin-top: 40px;
 }
 
-.footer-icon {
-    border: 1px solid rebeccapurple;
-    /* width: 100%; */
-    /* height: 30px; */
+#footer-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
