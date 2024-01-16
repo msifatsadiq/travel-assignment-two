@@ -222,6 +222,7 @@ p.places {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
    
 }
 
@@ -322,4 +323,39 @@ p.places {
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+
+/* resposive media query */
+
+@media screen and (max-width:600px) {
+    #nav{
+        flex-direction: column;
+
+
+    }
+    #popular-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #choose-us-main-content-one{
+        flex-direction: column;
+    }
+    #choose-us-main-content-two{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #newsletter-section{
+        flex-direction: column;
+    }
+    .newsletter-text-container{
+        width: 100%;
+    }
+    .newsletter-image-container{
+        width: 100%;
+    }
+   
+
+
 }
