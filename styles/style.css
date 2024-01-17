@@ -532,12 +532,14 @@ p.places {
         display: flex;
         flex-direction: column-reverse;
         padding: 0;
-        background-color: rgba(233, 68, 68, 0.05);
+    }
+    .text-container > hr{
+        width: 100%;
     }
 
-    /* #hero-section-content {
+    #hero-section-content {
         margin-left: -11px;
-    } */
+    }
 
     #destination-img-section {
         max-width: 800px;
